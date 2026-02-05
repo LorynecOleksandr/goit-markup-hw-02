@@ -13,8 +13,13 @@
      --navy-blue-modal: rgba(46, 47, 66, 0.4);
      --grey: rgba(46, 47, 66, 0.7);
      --white: #fff;
-     --dairy: #fcfcfc;
-     text-decoration: none;}
+     --dairy: #fcfcfc;}
+  body {
+      font-family: "Roboto", sans-serif;
+      color: var(--slate);
+      background-color: var(--white);}
+  a {
+      text-decoration: none;}
   ul,ol {
      list-style-type: none;
      margin: 0;
@@ -47,27 +52,32 @@
 /* #endregion */
 
 /* #region HEADER */
+.header {
+    background-color: var(--white);}
   .logo {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-family: var(--second-family);}
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--iris);}
       .logo-Web {
       color: var(--iris);}
       .logo-dark {
       color: var(--navy-blue);}
-        .nav-link {
-         font-family: var(--font-family);
-         font-weight: 500;
-         font-size: 16px;
-         line-height: 1.5;
-         letter-spacing: 0.02em;
-         color: var(--navy-blue);}
-      .nav-link:hover,
-      .nav-link:focus {
-         color: var(--ocean);}
+      .header-logo {
+       margin-right: 76px;}
+  .nav-link {
+       font-family: var(--font-family);
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: var(--navy-blue);}
+  .nav-link:hover,
+  .nav-link:focus {
+       color: var(--ocean);}
   .address {
     font-style: normal;}
       .address-link {
